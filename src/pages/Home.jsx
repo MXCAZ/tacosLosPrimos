@@ -12,6 +12,7 @@ import tacos from "./images/tacos.jpeg";
 import torta from "./images/torta.jpeg";
 import burrito from "./images/burrito.jpeg";
 import quesadilla from "./images/quesadilla.jpeg";
+import traila from "./images/traila.jpeg";
 
 // import { useState } from "react";
 import { useEffect, useRef } from "react";
@@ -95,8 +96,8 @@ export default function Home() {
                 <img src={logo} alt="logo" className="logo" />
                 {/* <h1>Menu</h1> */}
                 <br />
-                <a href="/">See Our Menu</a>
-                <a href="/">We Do Catering</a>
+                <a href="/Menu">See Our Menu</a>
+                <a href="#catering">We Do Catering</a>
               </div>
             </div>
             <div className="spikes"></div>
@@ -128,6 +129,7 @@ export default function Home() {
               Draper, UT 84020
             </li>
           </ul>
+          <img src={traila} alt="foodTruck" className="foodTruck" />
         </motion.section>
         <motion.section
           initial={{ opacity: 0, y: -75 }}
@@ -205,7 +207,8 @@ export default function Home() {
           initial={{ opacity: 0, x: 75 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.25 }}
-          className="fifthContainer">
+          className="fifthContainer"
+          id="catering">
           <div className="caterContent">
             <video
               src={video2}
