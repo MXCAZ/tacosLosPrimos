@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+main {
+  min-width: 400px;
+}
 .container {
   max-width: 100%;
   width: 100%;
@@ -105,25 +108,25 @@ main {
 .secondContainer h2 {
   margin-top: 100px;
   text-align: center;
-  width: 450px;
+  width: 350px;
   position: relative;
 }
 
 .secondContainer h2::before {
   content: "";
   display: block;
-  width: 120px;
+  width: 70px;
   height: 2px;
   background: #e38f24;
   position: absolute;
-  left: 0;
+  left: 20;
   top: 50%;
 }
 
 .secondContainer h2::after {
   content: "";
   display: block;
-  width: 120px;
+  width: 70px;
   height: 2px;
   background: #e38f24;
   position: absolute;
