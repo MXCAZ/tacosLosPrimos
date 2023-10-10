@@ -5,12 +5,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <Router>
-        <AnimatedRoutes />
-        <Footer />
-      </Router>
-    </>
+    <Router>
+      <AnimatedRoutes />
+      <Footer />
+    </Router>
   );
 }
 

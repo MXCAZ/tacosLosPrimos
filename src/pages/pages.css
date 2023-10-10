@@ -72,9 +72,10 @@ video {
 }
 
 .foodTruck {
-  width: 900px;
+  width: 80%;
   height: 500px;
   margin: 50px;
+  object-fit: cover;
 }
 
 .secondContainer {
