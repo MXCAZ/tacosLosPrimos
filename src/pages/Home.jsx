@@ -104,11 +104,7 @@ export default function Home() {
           </div>{" "}
         </section>
 
-        <motion.section
-          initial={{ opacity: 0, scale: 0, x: 200 }}
-          whileInView={{ opacity: 1, scale: 1, x: 0 }}
-          transition={{ duration: 0.6 }}
-          className="secondContainer">
+        <motion.section className="secondContainer">
           <h2 style={{ color: "#e38f24" }}>
             <span> Opening Hours </span>
           </h2>
