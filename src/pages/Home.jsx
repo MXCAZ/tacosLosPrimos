@@ -125,8 +125,8 @@ export default function Home() {
               <i className="fa-solid fa-phone"></i>&nbsp; Tel: (801) 895-5592
             </li>
             <li>
-              <i className="fa-solid fa-location-dot"></i>&nbsp; 653 E 12300 S,
-              Draper, UT 84020
+              <i className="fa-solid fa-location-dot"></i>&nbsp; 212 E. 12300 S.
+              Draper UT. 85020
             </li>
           </ul>
           <img src={traila} alt="foodTruck" className="foodTruck" />
@@ -196,6 +196,10 @@ export default function Home() {
             className="scroller"
             style={{ paddingBottom: "30px", marginTop: "30px" }}>
             <ul className="tag-list scroller_inner">
+              <li>Tacos</li>
+              <li>Burritos</li>
+              <li>Quesadillas</li>
+              <li>Tortas</li>
               <li>Tacos</li>
               <li>Burritos</li>
               <li>Quesadillas</li>
