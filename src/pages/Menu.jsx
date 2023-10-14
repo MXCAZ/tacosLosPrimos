@@ -27,18 +27,14 @@ export default function Menu() {
                 Authentic Mexican Food
               </h2>
               <br />
+
               <img src={logo} alt="logo" className="logo" />
+              <a href="/">Home Page</a>
 
               <br />
             </div>
           </div>
           <div className="spikes"></div>
-          <a
-            href="/"
-            style={{ position: "absolute", left: "70px", top: "50px" }}
-            className="contentButton">
-            Home Page
-          </a>
         </div>{" "}
       </section>
       <div className="menuContainer">
