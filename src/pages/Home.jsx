@@ -21,6 +21,10 @@ export default function Home() {
   const form = useRef();
 
   useEffect(() => {
+    document.title = ` Taqueria Los Primos `;
+  }, []);
+
+  useEffect(() => {
     const mediaQueryList = window.matchMedia(
       "(prefers-reduced-motion: reduce)"
     );
