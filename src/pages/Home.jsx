@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
-import logo from "./images/taqueria.jpeg";
+import logo from "./images/taqueria.png";
 import video from "./images/tacosvideo.mp4";
 import video2 from "./images/cater.mp4";
 import taco from "./images/taco.jpeg";
@@ -50,10 +50,10 @@ export default function Home() {
 
     emailjs
       .sendForm(
-        "service_3pb4ym8",
-        "template_1dtzrjj",
+        "service_97cie6o",
+        "template_sbx1irj",
         form.current,
-        "UtS5wF4XdHFhXqFWX"
+        "xxVzOwDXJ2E7d0HQi"
       )
       .then(
         (result) => {
